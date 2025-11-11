@@ -1,16 +1,17 @@
-# clima_seguro
+# Lab 1 · Consumo seguro de API REST (OpenWeather + Flutter)
 
-A new Flutter project.
+## Objetivo
+Consumir clima desde OpenWeatherMap mostrando UI con estados (**vacío / cargando / datos / error**) y manejo de secretos con `.env`.
 
-## Getting Started
+## Requisitos
+- Flutter 3.x
+- API key de OpenWeatherMap
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Configuración
+```bash
+flutter pub get
+# Copia el ejemplo y edita tu key
+cp .env.example .env
+# En Windows puedes crearlo manualmente y pegar la key
+# Ejecuta:
+flutter run -d windows
